@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/ycqVEn5fp0tksDwjXqs5EGcxBqy1AK0QiII0CfFxhuwe3WBa6HrRzyMZKGC4ewfacQ0lPm8VhVsEd0crP5JxjeQ-n5Btj41gKGxngpM0ip7hkCAItogDwu5RIHPXVzzPcqjk90BX6ji9oOfVjR_fzkiKqwTah7Fud-8Pkk3QYMwt9jV8ZM6V2up23aXf5FOiS4sduToM4Jz_6hjtfTVfoNag94gM6nQiTywQAphpifmqSKXXRxQljpKiMdfVnJeddP_nKD3OGplvd9kl6qxMdbBEOanESDNEhdn_BmXh4dcmLQZb0qTWDojnNEjojT6Xq5NFoyGjS13HX4TAnl_sblu7Ukb4Q6HuOmEx781Roj1GGUakxlZHZv9_LXwSJ31lqEFF_vrx5XnWANJ293Dbo6k736ArKj14d7aPU080aEnRRXUTbDQKSmhqpTsyk16AE-Ejt8hm0ZjVOXvIfhuy4Uot5vFxLpMrXkoap7UBz2uPsbIzmS900XU4rJq6qZBQaAFcpz3eGWfcGK3lBfJmrXq_Ze1oce46AAyimuk030cs6YZVSXhcwp3FPVfCW1L1XvmjTUYrEC7eqQYso3TCR_q_exqutUZSPBvSINsZSxA7l4mVF8kxX8ZvWF6-m-AH7yxBftcTeT6o1d3RL5-G7cS2m2DDaZJ1HaF-xLyxwZ1TBQV0zPoInDAHoPd4JA=w1160-h657-no?authuser=0);
+    background-color:hsl(0, 100%, 74%);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;    
+}
+.principal-message{
+    color: white;
+    margin: 60px;
+    padding:80px;
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+
+.principal-message h1{
+    font-size: 50px;
+}
+
+.right{
+    padding: 30px;
+    margin: 0px;
+}
+
+.button1{
+    
+    width: 450px;
+    height: 50px;
+    background-color:hsl(248, 32%, 49%);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;    
+   
+}
+.button1:hover{
+    background-color: hsl(245, 59%, 57%) ;
+    cursor: pointer;
+}
+.form{
+   width: 450px;
+   height: 450px;
+   background-color:white;
+   border-radius: 10px;
+   box-shadow: 0px 10px hsl(0, 96%, 71%);
+}
+
+.placeholder{
+    width: 90%;
+    height: 50px;
+    font-family: Arial Black;
+    border-style: solid 1px;
+    border-color:  hsl(246, 25%, 77%);
+    border-radius: 5px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button2{
+    
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-family: arial black;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.button2:hover{
+    background-color:hsl(154, 100%, 35%);
+    cursor: pointer;
+}
+
+.little-text{
+    font-size: 12px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+
+.attribution{
+    font-size: 15px;
+    text-align: center;
+}

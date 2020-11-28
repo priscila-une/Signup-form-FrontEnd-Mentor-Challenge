@@ -1,0 +1,40 @@
+@media only screen and (max-width: 500px){
+    body{
+        background-size: contain;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .principal-message{
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .principal-message h1{
+        font-size: 50px;
+        width: 300px;
+    }
+    
+    .right{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .form{
+        width: 320px;
+    }
+
+    .button1{
+        width: 320px;
+    }
+
+    .button2{
+        width: 280px;
+    }
+
+}
